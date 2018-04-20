@@ -190,20 +190,18 @@
 
 /***2***/
 
+/*** input-group ***/
 .input-group > .select2-hidden-accessible:first-child + .select2-container--bootstrap4 > .selection > .select2-selection {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
-
 .input-group > .select2-hidden-accessible:not(:first-child) + .select2-container--bootstrap4:not(:last-child) > .selection > .select2-selection {
   border-radius: 0;
 }
-
 .input-group > .select2-hidden-accessible:not(:first-child):not(:last-child) + .select2-container--bootstrap4:last-child > .selection > .select2-selection {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
-
 .input-group > .select2-container--bootstrap4 {
   flex: 1 1 auto;
   width: 1% !important;
@@ -211,8 +209,21 @@
   position: relative;
   margin-bottom: 0;
 }
-
 .input-group > .select2-container--bootstrap4 > .selection > .select2-selection {
   float: none;
 }
+/*.input-group > .form-control+.form-control {
+  margin-left: -1px;
+}*/
 
+/*** form-row ***/
+.form-row .select2-container--bootstrap4 .select2-selection {
+  display: block;
+}
+
+.input-group-sm .select2-container--bootstrap4 .select2-selection{    
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: .2rem;
+}
