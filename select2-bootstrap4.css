@@ -160,8 +160,6 @@
   white-space: nowrap;
 }
 
-
-
 .select2-container--bootstrap4 .select2-selection--multiple .select2-selection__choice {
   color: #495057;
   background: #fff;
@@ -171,6 +169,7 @@
   float: left;
   margin-right: 5px;
   padding: 0 6px;
+  font-size: 14px;
 }
 
 .select2-container--bootstrap4 .select2-selection--multiple .select2-search--inline .select2-search__field {
